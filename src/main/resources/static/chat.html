@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex4 - Chat</title>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="Scripts/template.js"></script>
+    <script src="Scripts/chat.js"></script>
+    <link rel="stylesheet" href="Styles/stylesheet.css">
+</head>
+<body>
+    <div class="users-container">
+        <h3>Online Users</h3>
+        <div id="users">
+
+        </div>
+    </div>
+    <section>
+        <div id="welcome"></div>
+        <nav>
+            <a href="search.html">Search</a>
+            <form id="logout">
+                <input type="submit" value="Logout">
+            </form>
+        </nav>
+        <div id="chat"></div>
+        <form id="sendMessage">
+            <input type="text" name="message" placeholder="Your message"/>
+            <input type="submit" value="Send">
+            <div class="error"></div>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.ex4.chat"},{"l":"com.ex4.chat.controlles"},{"l":"com.ex4.chat.models"}]
